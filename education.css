@@ -1,0 +1,30 @@
+body{
+
+   background-image: url(pictures/images\ \(46\).jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    color: teal;
+    background-color: white;
+    margin-left: 450px;
+    margin-top: 100px;
+    border-radius: 15px;
+    border: 5px solid green;
+}
+.box:hover{
+    color: tan;
+    background-color: black;
+}
+.box:active{
+    color: white;
+    background-color: black;
+    transform: scale(0.98);
+}
+h6{
+    font-size: 18px;
+}
